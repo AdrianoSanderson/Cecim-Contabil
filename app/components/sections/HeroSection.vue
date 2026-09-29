@@ -35,6 +35,7 @@
               variant="solid"
               class="w-full sm:w-auto justify-center bg-emerald-600 font-semibold text-white shadow-lg shadow-emerald-600/20 hover:shadow-emerald-600/40 transition-all duration-300"
               icon="i-heroicons-chat-bubble-left-right"
+              @click="openWhatsapp('Olá! Gostaria de falar com um especialista sobre os serviços da Cecim Contábil.')"
             >
               Falar com um Especialista
             </UButton>
@@ -42,7 +43,7 @@
             <UButton
               size="xl"
               variant="ghost"
-              class="w-full sm:w-auto bg-gray-600 justify-center font-medium text-slate-200 hover:text-white hover:bg-slate-800 border border-slate-700/60"
+              class="hidden w-full sm:w-auto bg-gray-600 justify-center font-medium text-slate-200 hover:text-white hover:bg-slate-800 border border-slate-700/60"
               icon="i-heroicons-calculator"
             >
               Simular Rescisão Grátis
@@ -56,7 +57,7 @@
             </div>
             
             <div>
-              <p class="text-xl sm:text-2xl font-bold text-white">+500 Clientes</p>
+              <p class="text-xl sm:text-2xl font-bold text-white">+1000 Clientes</p>
               <p class="text-xs sm:text-sm text-slate-400">Satisfeitos</p>
             </div>
           </div>
@@ -71,7 +72,7 @@
               
               <div class="overflow-hidden rounded-xl bg-slate-900 border border-slate-700/50 aspect-video relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=800&amp;q=80" 
+                  src="/imgHeroSection.jpeg" 
                   alt="Escritório Cecim Contábil" 
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -108,3 +109,16 @@
     </UContainer>
   </section>
 </template>
+
+<script setup lang="ts">
+import { useWhatsapp } from '../composables/useWhatsapp';
+
+  const { openWhatsapp } = useWhatsapp()
+
+  /*const rolarParaCalculadora = () => {
+    const elemento = document.getElementById('calculadora')
+    if (elemento) {
+      elemento.scrollIntoView({ behavior: 'smooth' })
+    }
+  }*/
+</script>
