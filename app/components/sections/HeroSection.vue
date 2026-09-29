@@ -77,9 +77,6 @@
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80" />
-                <div class="absolute bottom-3 left-3 right-3 text-left">
-                  <p class="text-xs font-semibold uppercase tracking-wider">Cecim Contábil</p>
-                </div>
               </div>
 
               <div class="bg-slate-900/80 rounded-xl p-4 border border-slate-700/50 flex align-colunm items-center space-x-4">
