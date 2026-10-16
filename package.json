@@ -28,6 +28,7 @@
     "@tiptap/starter-kit": "^3.31.3",
     "@tiptap/suggestion": "^3.31.3",
     "@tiptap/vue-3": "^3.31.3",
+    "canvas": "^3.2.3",
     "nuxt": "^4.5.2",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
