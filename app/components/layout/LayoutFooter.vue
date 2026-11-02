@@ -110,6 +110,5 @@ const currentYear = new Date().getFullYear()
 const linksRapidos = [
   { nome: 'Serviços Contábeis', href: '#servicos' },
   { nome: 'Soluções para Médicos e Advogados', href: '#nichos' },
-  { nome: 'Calculadora de Rescisão', href: '#calculadora' }
 ]
 </script>
