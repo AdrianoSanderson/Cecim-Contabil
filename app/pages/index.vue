@@ -4,7 +4,7 @@
       <SectionsHeroSection />
       <SectionsServicesSection />
       <SectionsNicheSection />
-      <SectionsCalculator />
+      <SectionsFaqSection />
     </main>
 
     <LayoutFooter />
